@@ -125,7 +125,7 @@ function test(date){
 }
 
 function sweping(){
-console.log(from.value);
+//console.log(from.value);
     var d=from.value;
     from.value=toss.value;
     toss.value=d;
