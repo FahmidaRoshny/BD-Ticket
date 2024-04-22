@@ -124,6 +124,12 @@ function test(date){
    return myArray[1]+"/"+myArray[0]+"/"+myArray[2];
 }
 
+function sweping(){
+console.log(from.value);
+    var d=from.value;
+    from.value=toss.value;
+    toss.value=d;
+}
 
 
 const selectBox = document.querySelector('.select-box');
